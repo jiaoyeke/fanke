@@ -1,0 +1,31 @@
+*{margin:0;padding:0}
+body{
+   font: 12px simhei,Arial,Helvetica,sans-serif;
+    color:#666;
+}
+.my-color{
+    color:#666;
+}
+.lf{
+    float:left;
+}
+.right{
+    float:right;
+}
+.clear::after{
+    content:"";
+    display:block;
+    clear:both;
+}
+
+iframe{
+    width:100% !important;
+    height:180px;
+}
+ul{
+    list-style:none;
+}
+a{
+    text-decoration: none;
+}
+
